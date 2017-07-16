@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+]>
+<svg version="1.1" id="Layer_1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="876.167px" height="280.178px" viewBox="0 0 876.167 280.178" enable-background="new 0 0 876.167 280.178"
+	 xml:space="preserve">
+<path fill="#F1F2F2" stroke="#808184" stroke-width="0.25" stroke-miterlimit="10" d="M876.167,265.324
+	c0,8.204-6.474,14.854-14.46,14.854H14.461C6.474,280.178,0,273.528,0,265.324V14.855C0,6.65,6.474,0,14.461,0h847.246
+	c7.986,0,14.46,6.65,14.46,14.855V265.324z"/>
+<polygon fill="#F0676A" points="28.761,33.896 28.761,77.896 67.761,55.896 "/>
+<polygon fill="#73C4D2" points="67.761,137.895 67.761,93.895 28.761,115.895 "/>
+<g>
+	<text transform="matrix(1 0 0 1 75.9907 60)" fill="#414042" font-family="'Roboto-Light'" font-size="15">15454 PRE-AMP</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 331.9907 59)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">C</tspan><tspan x="9.617" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">A</tspan><tspan x="18.039" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">T 5 Ethernet</tspan></text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 245.9907 159)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">Rep</tspan><tspan x="25.949" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">r</tspan><tspan x="30.916" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">esents OSP Fiber</tspan></text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 75.9907 119.8955)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">15454 POS</tspan><tspan x="73.602" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15" letter-spacing="-1">T</tspan><tspan x="80.786" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">-AMP</tspan></text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 75.9907 183.8955)" fill="#414042" font-family="'Roboto-Light'" font-size="15">15454 Node</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 75.9907 235.8955)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">Fi</tspan><tspan x="12.056" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">x</tspan><tspan x="19.248" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">ed Filter</tspan></text>
+</g>
+<rect x="28.761" y="165" fill="#7A8B38" width="39" height="29"/>
+<rect x="28.761" y="217" fill="#E4C852" width="39" height="29"/>
+<rect x="225.167" y="36" fill="#DFDCD7" stroke="#808184" stroke-width="0.25" stroke-miterlimit="10" width="1" height="216"/>
+<rect x="567.167" y="36" fill="#DFDCD7" stroke="#808184" stroke-width="0.25" stroke-miterlimit="10" width="1" height="216"/>
+<rect x="246.341" y="54.093" fill="#73C4D2" width="77.825" height="1.803"/>
+<line fill="none" stroke="#F0676A" stroke-width="2" stroke-miterlimit="10" stroke-dasharray="7,2,2,2,7,2" x1="246.341" y1="95.5" x2="324.167" y2="95.5"/>
+<line fill="none" stroke="#F0676A" stroke-width="4" stroke-miterlimit="10" x1="246.341" y1="232.5" x2="324.167" y2="232.5"/>
+<line fill="none" stroke="#73C4D2" stroke-width="4" stroke-miterlimit="10" x1="246.341" y1="192.5" x2="324.167" y2="192.5"/>
+<g>
+	<text transform="matrix(1 0 0 1 331.9907 196)" fill="#414042" font-family="'Roboto-Light'" font-size="15">East Bound (Counter Clock Wise)</text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 331.9907 236)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">W</tspan><tspan x="13.205" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">est Bound (Clock Wise)</tspan></text>
+</g>
+<g>
+	<text transform="matrix(1 0 0 1 586.1665 135)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">All Distances and Loss a</tspan><tspan x="160.547" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">r</tspan><tspan x="165.513" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="15">e based on </tspan><tspan x="0" y="18" fill="#414042" font-family="'Roboto-Light'" font-size="15">Fiber Characterization Report</tspan><tspan x="0" y="36" fill="#414042" font-family="'Roboto-Light'" font-size="15">dated:mm/dd/yyyy</tspan></text>
+</g>
+</svg>

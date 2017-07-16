@@ -1,0 +1,105 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+		{
+            "type": "Feature",
+            "properties": {
+                "name": "Texas"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -98.942871,
+					31.391158
+                ]
+            }
+        },
+		
+		{
+            "type": "Feature",
+            "properties": {
+                "name": "TexastoAlbama"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+					[
+						-98.942871,
+						31.391158
+					],
+					[
+						-86.989746,
+						32.694866
+					]
+                ]
+            }
+        },
+		
+		{
+            "type": "Feature",
+            "properties": {
+                "name": "Alabama"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.989746,
+					32.694866
+                ]
+            }
+        },
+		{
+            "type": "Feature",
+            "properties": {
+                "name": "AlbamatoIndiana"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+					[
+						-86.989746,
+						32.694866
+					],
+					[
+						-86.374512,
+						39.808536
+					]
+                ]
+            }
+        },
+		
+		{
+            "type": "Feature",
+            "properties": {
+                "name": "Indiana"
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    -86.374512,
+					39.808536
+                ]
+            }
+        },
+		{
+            "type": "Feature",
+            "properties": {
+                "name": "IndianatoTexas"
+            },
+            "geometry": {
+                "type": "LineString",
+                "coordinates": [
+					[
+						-86.374512,
+						39.808536
+					],
+					[
+						-98.942871,
+						31.391158
+					]
+                ]
+            }
+        }
+		
+	]
+}

@@ -1,0 +1,14 @@
+package com.java.collection.problems;
+
+public class test {
+//why encapsulation relatime and abstraction 
+	//basic difference between constants and enums
+	public static void main(String[] args) {
+		String s= " Mandatory parameter %s is reuired";
+		String hello ="hello";
+		System.out.println("output: " + String.format());
+	
+}
+void hello(final String args){
+}
+}

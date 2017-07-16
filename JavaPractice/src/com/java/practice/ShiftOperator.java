@@ -1,0 +1,77 @@
+package com.java.practice;
+
+public class ShiftOperator {
+
+	/*
+	 * and it is fine to use >> for negative numbers. The operator ‘>>’ uses the
+	 * sign bit (left most bit) to fill the trailing positions after shift. If
+	 * the number is negative, then 1 is used as a filler and if the number is
+	 * positive, then 0 is used as a filler. For example, if binary
+	 * representation of number is 10….100, then right shifting it by 2 using >>
+	 * will make it 11…….1.
+	 */
+	public static void main(String args[]) {
+		//0111 .. 1111
+		int x = -7;
+		System.out.println(x >> 2);
+	//0111 .. 011
+		/*Explanation of 20>>2 = 5
+
+				20 in binary is: 00000000000000000000000000010100
+
+				shift all bits 2 positions to right 00000000000000000000000000000101
+
+				This is 5 (2*2^2+0*2^1+1*2^0) in binary form */
+		int y = 7;
+		//right shift shortcut is:number divided by  2^no of shift in positive .
+		System.out.println(y >> 2);
+		mainass();
+		mainASSS();
+	}
+
+	// (Unsigned right shift) In Java, the operator ‘>>>’ is unsigned right
+	// shift operator. It always fills 0 irrespective of the sign of the number.
+	public static void mainass() {
+
+		// x is stored using 32 bit 2's complement form.
+		// Binary representation of -1 is all 1s (111..1)
+		int x = -1;
+
+		System.out.println(x >>> 29); // The value of 'x>>>29' is 00...0111
+		System.out.println(x >>> 30); // The value of 'x>>>30' is 00...0011
+		System.out.println(x >>> 31); // The value of 'x>>>31' is 00...0001
+	}
+	/*when you run the program above you obtain:
+
+		-1>>>2 = 1073741823
+
+		-1>>>2 in binary form is 111111111111111111111111111111
+
+		If you count the number of bits, you find 30 bits ONLY, there should be 32. 
+		The two 0's at the left have been ignored. This number is actually 00111111111111111111111111111111 which is a positive large number (1073741823). You have to remember that the >>> fills 0's to the left.
+
+		Example 4: the << opearator
+
+		This example shows the effect of using the << opearator .
+*/
+		  
+		   public static void mainASSS(){
+		      System.out.println(" << opeartor");
+
+		// shift all the bits to the left by 2 
+		int y = 13<<2;      
+		//left shift : nuer * 2^nof times shift * number
+		System.out.println("13<<2 = "+y);
+		    }
+		}
+/*
+		13<<2 = 52
+
+		13 in binary is : 00000000000000000000000000001101
+
+		shift left 2 positions and fill right bits with 0,s
+
+		you obtain : 00000000000000000000000000110100
+
+		this is 1*2^5+1*2^4+0*2^3+1*2^2+0*2^1+0*2^0 = 52 */
+

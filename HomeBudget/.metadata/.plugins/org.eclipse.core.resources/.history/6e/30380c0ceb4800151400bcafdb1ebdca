@@ -1,0 +1,10 @@
+package com.java.practice;
+
+import java.util.List;
+
+public class EmployeeImuttable {
+private final Person person;
+private final List<String> list;
+
+
+}

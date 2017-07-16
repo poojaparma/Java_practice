@@ -1,0 +1,25 @@
+[
+    {
+        "Name": "Imagine",
+        "state": [
+            "all",
+            "major"
+        ],
+        "SubNodes": [
+            {
+                "Name": "IM Ring A",
+                "state": [
+                    "all",
+                    "major"
+                ]
+            },
+            {
+                "Name": "IM Ring B",
+                "state": [
+                    "all",
+                    "normal"
+                ]
+            }
+        ]
+    }
+]

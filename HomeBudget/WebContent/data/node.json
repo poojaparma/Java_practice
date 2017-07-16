@@ -1,0 +1,131 @@
+{
+    "nodes": [
+        {
+            "name": "IMLEUSGA100",
+            "state": "Washington",
+            "desc": "<p>Wenatchee, <br> WA 98801, USA",
+            "icon": "ne",
+            "x": 47.383474,
+            "y": -120.388184
+        },
+        {
+            "name": "IMLEUSGA201",
+            "state": "California",
+            "desc": "<p>3001 Cobb Parkway <br> California, USA",
+            "icon": "ne",
+            "x": 37.909534,
+            "y": -118.718262
+        },
+        {
+            "name": "IMLEUSGA005",
+            "state": "Colarado",
+            "desc": "<p>Crested Butte,  <br> NB 81224, USA",
+            "icon": "ne",
+            "x": 40.80547,
+            "y": -98.940918,
+            "showAlert": "true"
+        },
+        {
+            "name": "IMLEUSGA200",
+            "state": "North Dakota",
+            "desc": "<p>Hazen, <br> ND 58545, USA",
+            "icon": "ne",
+            "x": 47.353711,
+            "y": -101.623535
+        },
+        {
+            "name": "IMLEUSGA008",
+            "state": "Arizona",
+            "desc": "<p>Mosen Park, <br> CO 58545, USA",
+            "icon": "ne",
+            "x": 38.819672,
+            "y": -107.623535
+        },
+        {
+            "name": "IMLEUSOH100",
+            "state": "Ohio",
+            "desc": "<p>Blanchard, <br>OH, USA",
+            "icon": "ne",
+            "x": 40.996484,
+            "y": -83.781738
+        },
+        {
+            "name": "IMLEUSOH007",
+            "state": "Arkansas",
+            "desc": "<p>Paron, <br> AR 72122, USA",
+            "icon": "ne",
+            "x": 34.79817,
+            "y": -92.700195
+        },
+        {
+            "name": "IMLEUSOH101",
+            "state": "Georgia",
+            "desc": "<p>Watkinsville, <br> GA 30677, USA",
+            "icon": "ne",
+            "x": 33.79817,
+            "y": -83.38623
+        }
+    ],
+    "links": [
+        {
+            "source": 0,
+            "target": 1,
+            "type": "linkPath",
+            "distance": "1137 Km"
+        },
+        {
+            "source": 1,
+            "target": 4,
+            "type": "linkPath",
+            "distance": "1984 Km"
+        },
+        {
+            "source": 2,
+            "target": 3,
+            "type": "linkPath",
+            "distance": "1473 Km"
+        },
+        {
+            "source": 3,
+            "target": 0,
+            "type": "linkPath",
+            "distance": "1788 Km"
+        },
+        {
+            "source": 2,
+            "target": 4,
+            "type": "linkPath",
+            "distance": "588 Km"
+        },
+        {
+            "source": 2,
+            "target": 6,
+            "type": "bluelinkPath",
+            "distance": ""
+        },
+		{
+            "source": 2,
+            "target": 6,
+            "type": "bluelinkPath",
+            "distance": ""
+        },
+        {
+            "source": 5,
+            "target": 6,
+            "type": "linkPath",
+            "distance": "1284 Km"
+        },
+        {
+            "source": 7,
+            "target": 6,
+            "type": "linkPath",
+            "distance": "1000 Km"
+        },
+        {
+            "source": 7,
+            "target": 5,
+            "type": "linkPath",
+            "distance": "1066 Km"
+        }
+    ]
+}

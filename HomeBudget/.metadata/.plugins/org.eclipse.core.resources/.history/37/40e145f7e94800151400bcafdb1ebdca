@@ -1,0 +1,6 @@
+package com.java.practice;
+
+public class EmployeeImuttable {
+private final Person person;
+
+}

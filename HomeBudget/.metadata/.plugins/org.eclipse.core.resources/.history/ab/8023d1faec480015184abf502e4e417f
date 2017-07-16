@@ -1,0 +1,32 @@
+package com.java.practice;
+
+import java.util.ArrayList;
+import java.util.List;
+
+
+public class TestJava {
+public static void main(String[] args) {
+	EmployeeImuttable emp = new EmployeeImuttable(new Person(), new ArrayList<String>());
+	List<String> list = emp.getList();
+	/* * 
+	list.add("abc");
+	list.add("bdc");
+	list.add("dsdsd");
+	String s=list.remove(0);
+	System.out.println("string is: " + s);
+	s= "n e w";
+	list.add(0,s);
+	System.out.println("list is: " + list);*/
+	/*
+	try{
+		throw new Exception("test exception");
+	}catch(Exception e){
+		StackTraceElement[] ex=e.getStackTrace();
+						System.out.println("tostring: " + e.toString());												;
+		for(StackTraceElement s: ex){
+			System.out.println(s);
+		}
+		System.out.println("ex is: " + ex);
+	}
+*/}
+}

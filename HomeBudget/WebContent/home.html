@@ -1,0 +1,325 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>NCMS - Circuits</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<!-- Kendo UI -->
+<link href="css/css/kendo/kendo.common.min.css" rel="stylesheet" />
+<link href="css/css/kendo/kendo.bootstrap.min.css" rel="stylesheet" />
+<link href="css/css/kendo/kendo.dataviz.min.css" rel="stylesheet" />
+<link href="css/css/kendo/kendo.dataviz.default.min.css" rel="stylesheet" />
+
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/css/style.css" rel="stylesheet" />
+
+<!-- Theme -->
+<link rel="stylesheet" href="css/css/theme/main.min.css">
+
+
+</head>
+
+<body id="network">
+<div id="wrap">
+      <div id="top">
+          <header class="navbar-header logo">
+          	 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span> 
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span> 
+            </button>
+           <span>Imagine: </span><b><span id="user"></span></b>
+           <span class="float-right mobile-left"><span>Last Login :</span><b id="date"></b></span>
+          </header>
+          
+           <nav class="navbar navbar-inverse navbar-static-top">
+              <div class="topnav">
+                <div class="btn-toolbar">
+                     
+                  <div class="btn-group" id="logout">
+        
+                    <a href="#" data-toggle="tooltip"  data-placement="bottom" class="btn btn-metis-1 btn-sm dashboardLogout logout">
+                      <img src="images/logout.png" />
+                    </a> 
+                  </div>
+                </div>
+              </div><!-- /.topnav -->
+	          <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+                <!-- .nav -->
+               <ul class="nav navbar-nav menu">
+                  <li class="active">
+                    <a href="home.html"><img src="images/homeIcon.png" />Home</a> 
+                  </li>
+                  <li> <a href="app.html"><img src="images/alarmIcon.png" />Home Budget</a>  </li>
+                  <li  > <a href="analyze.html"><img src="images/circuitsIcon.png" />Analysis</a>  </li>
+                  <li class='dropdown'>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      <img src="images/requestIcon.png" />Raise a Request
+                      <b class="caret"></b>
+                    </a> 
+                    <ul class="dropdown-menu">
+                      <li> <a href="#">General</a>  </li>
+                      <li> <a href="#">Queries</a>  </li>
+                      <li> <a href="#">Request</a>  </li>
+                    </ul>
+                  </li>
+                </ul><!-- /.nav -->
+              </div>
+        </nav><!-- /.navbar -->
+        
+        
+
+        <!-- header.head -->
+        <header class="">
+          <div class="search-bar">
+            <a  data-placement="bottom" data-tooltip="tooltip" class="accordion-toggle btn btn-primary btn-sm visible-xs visible-sm dashboardLogout" id="menu-toggle">
+              <img src="images/hide.png" />
+            </a> 
+            <a href="#" data-toggle="tooltip"  data-placement="bottom" style="float:right" class="btn btn-sm dashboardLogout logout mobileLogout">
+                  <button id="logout">Logout</button>
+            </a> 
+          </div>
+        </header>
+        <!-- end header.head -->
+      </div><!-- /#top -->
+      
+      
+      <div id="left">
+                <!-- Tree Sections -->
+            <div class="treeSection" id="tabsData">
+                
+                <!-- Network Tree -->
+                <div>
+                    <div id="familytree"></div>
+                        <script id="familytreeTemplate" type="text/kendo-ui-template">
+						
+                                 <div class="treeIcons">
+                               #for(var i=0; i< item.state.length; i++){#
+                                    <img src="images/#= item.state[i] #.png" />
+                                #}# 
+                                </div> 
+								
+								# var site = item.sourceSite; #
+								
+								#if(typeof(site)=='undefined'){ #
+									
+									#: item.Name #
+									
+								#} else {#
+
+									#: item.sourceSite +"-"+ item.destinationSite #
+											
+								#}#			
+											
+								
+                                
+                        </script> 
+                </div>
+                
+              </div>
+           <!-- Closing Tree Section -->
+      </div><!-- /#left -->
+
+      <div id="content">
+        <div class="outer">
+          <div class="inner">
+            <div class="btn-group">
+               <a class="btn btn-success btn-sm dashboardLogout hideButton" id="changeSidebarPos">
+                  <img src="images/hide.png" />
+               </a> 
+            </div>
+             
+            
+        <!--     <div class="row">
+              <div class="col-lg-12">
+                <div class="box">
+                  <div class="body">
+                  		<div id="familygrid"></div>
+					  <script type="text/x-kendo-template" id="familygridTemplate">
+						
+						# if(typeof(sub) != "undefined"){  if(sub=="pooja"){#
+						
+							<div id='innercircuitsAGrid'></div>
+							
+							# setTimeout(function(){createCircuitGrid("ringA","innercircuitsAGrid");},1000) } else if(sub=="ringBMain"){ #
+							
+							<div id='innercircuitsBGrid'></div>
+							
+							# setTimeout(function(){createCircuitGrid("ringB", "innercircuitsBGrid");},1000)} } else { #
+							
+							
+                        <div class='gridDetails'>
+                            <ul>
+                                <li><label class="col-md-3">Source Address:</label><span class="col-md-7">#= sourceAddress #</span></li>
+                                <li><label class="col-md-3">Destination Address:</label><span class="col-md-7">#= destinationAddress #</span></li>
+                                <li><label class="col-md-3">Bidirectional:</label><span class="col-md-7">#= biDirectional #</span></li>
+                                <li><label class="col-md-3">ITU Wavelength:</label><span class="col-md-7">#= ituWavelength #</span></li>
+								<li><label class="col-md-3">Protection:</label><span class="col-md-7">#= protection #</span></li>
+                            </ul>
+                        </div>
+						
+						# } #
+						
+                       </script>
+                  
+                  </div>
+                </div>
+              </div> -->
+              
+            </div> 			
+			<!--  <div class="row">
+              <div class="col-lg-12">
+                <div class="box">
+					 -->
+                	<!-- <div id="svgSection"></div> -->
+<!-- 					
+					<iframe src="topology.html" style="height:350px; width:100%; border:0" id="topologyIframe"></iframe>
+					
+                </div>
+              </div>
+            </div> -->
+            
+          </div>
+          <!-- end .inner -->
+        </div>
+        <!-- end .outer -->
+      </div>
+      <!-- end #content -->
+    </div><!-- /#wrap -->
+    
+    <div id="footer" class="col-md-12 loginBottom">
+      <div class="col-md-6">
+			&copy; AT&T Intellectual Property. All Rights Reserved
+		</div>
+		<div class="col-md-6 listBottom">
+			<ul>
+				<li><a href="#">Terms & Conditions</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#">Write to AT&T</a></li>
+			</ul>
+		</div>
+    </div>
+	
+	<div class="modal" id="treePopup">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close hidePopup"  data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <h4 class="modal-title">Description</h4>
+      </div>
+      <div class="modal-body">
+       <!--  <p id="treePopupData"></p> -->
+		<div class="col-md-6 form-horizontal">
+			<div class="popupTitle">Basic Info</div>
+			<div class="popupSection basicInfo">
+			<div class="form-group">
+				<div class="col-md-6 col-xs-6"><label for="groupId">Group ID</label></div>
+				<div class="col-md-6 col-xs-6"><input type="text" class="form-control lightBlue" id="groupId" disabled></div>
+			</div>
+			<div class="form-group sitesHide">
+				<div class="col-md-6 col-xs-6"><label for="totalSites">Total Sites</label></div>
+				<div class="col-md-6 col-xs-6"><input type="text" class="form-control lightBlue" id="totalSites" disabled></div>
+			</div>
+			<div class="form-group nesHide">
+				<div class="col-md-6 col-xs-6"><label for="totalNe">Total NEs</label></div>
+				<div class="col-md-6 col-xs-6"><input type="text" class="form-control lightBlue" id="totalNe" disabled></div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-6 col-xs-6"><label for="desc">Description</label></div>
+				<div class="col-md-6 col-xs-6"><textarea class="form-control lightBlue" id="desc" disabled rows="2"></textarea></div>
+			</div>
+			</div>
+			<div style="height:10px"></div>
+			
+			<div class="popupTitle dashboardIcons">Alarm Info <img src="images/alarms.png"></div>
+			<div class="popupSection alarmInfo">
+			<div class="form-group">
+				<div class="col-md-6 col-xs-6"><label for="criticalAlarm">Critical</label></div>
+				<div class="col-md-6 col-xs-6"><input type="text" class="form-control red" id="criticalAlarm" disabled></div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-6 col-xs-6"><label for="majorAlarm">Major</label></div>
+				<div class="col-md-6 col-xs-6"><input type="text" class="form-control orange" id="majorAlarm" disabled></div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-6 col-xs-6"><label for="minorAlarm">Minor</label></div>
+				<div class="col-md-6 col-xs-6"><input type="text" class="form-control lightOrange" id="minorAlarm" disabled></div>
+			</div>
+			</div>
+		</div>
+		
+		<div class="col-md-6 form-horizontal">
+			
+			<div class="popupTitle dashboardIcons">NEs Operational Status <img src="images/ne.png"></div>
+			<div class="popupSection neOperational">
+			<div class="form-group">
+				<div class="col-md-6 col-xs-6"><label for="inService">In Service</label></div>
+				<div class="col-md-6 col-xs-6"><input type="text" class="form-control lightBlue" id="inService" disabled></div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-6 col-xs-6"><label for="outofService">Out of Service</label></div>
+				<div class="col-md-6 col-xs-6"><input type="text" class="form-control lightBlue" id="outofService" disabled></div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-6 col-xs-6"><label for="preProvisioned">Pre-Provisioned</label></div>
+				<div class="col-md-6 col-xs-6"><input type="text" class="form-control lightBlue" id="preProvisioned" disabled></div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-6 col-xs-6"><label for="neInitialization">NE in Initialization</label></div>
+				<div class="col-md-6 col-xs-6"><input type="text" class="form-control lightBlue" id="neInitialization" disabled></div>
+			</div>
+			</div>
+			<div style="height:10px"></div>
+			
+			<div class="popupTitle dashboardIcons cardSection">Card Details</div>
+			<div class="popupSection cardDetails cardSection">
+			<div class="form-group">
+				<div class="col-md-6 col-xs-6"><label for="cardNumber">Card Number</label></div>
+				<div class="col-md-6 col-xs-6"><input type="text" class="form-control lightBlue" id="cardNumber" disabled></div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-6 col-xs-6"><label for="cardType">Card Type</label></div>
+				<div class="col-md-6 col-xs-6"><input type="text" class="form-control lightBlue" id="cardType" disabled></div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-6 col-xs-6"><label for="position">Position</label></div>
+				<div class="col-md-6 col-xs-6"><input type="text" class="form-control lightBlue" id="position" disabled></div>
+			</div>
+			<div class="form-group">
+				<div class="col-md-6 col-xs-6"><label for="ituChannel">ITU Channel</label></div>
+				<div class="col-md-6 col-xs-6"><input type="text" class="form-control lightBlue" id="ituChannel" disabled></div>
+			</div>
+			</div>
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default hidePopup" data-dismiss="modal">OK</button>
+      </div>
+    </div><!-- /.modal-content -->
+  </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+	
+	
+<!-- Kendo Script    -->
+<script src="js/kendo/jquery.min.js"></script>
+<script src="js/kendo/kendo.all.min.js"></script>
+<script src="js/kendo/angular.min.js"></script>
+<!-- Themes Script -->
+<script src="js/theme/bootstrap.min.js"></script>
+<script src="js/theme/main.min.js"></script>
+<!-- D3js Script -->
+<script src="js/d3/d3.v3.min.js" charset="utf-8"></script>
+<script src="js/d3/d3.geo.tile.v0.min.js" charset="utf-8"></script>
+<script src="js/d3/topojson.v1.min.js" charset="utf-8"></script>
+<script src="js/jquery.cookie.js"></script>
+<<script src="js/util/functions.js"></script>
+  <script src="js/util/familytree.js"></script>
+<script src="js/util/familygrid.js"></script>
+
+
+</body>
+</html>

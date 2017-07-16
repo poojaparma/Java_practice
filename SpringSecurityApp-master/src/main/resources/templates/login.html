@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+        <title>Avril Spring Security </title>
+        <link href="../static/css/app.css"  th:href="@{/css/app.css}" rel="stylesheet" type="text/css" />
+       <!--  <link href="../static/css/main.css" th:href="@{/css/main.css}" rel="stylesheet" type="text/css" />  -->
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}" href="../static/css/bootstrap.css" />
+     <link rel="stylesheet" th:href="@{/css/bootstrap.css}" href="../static/css/ bootstrap.min.css" />
+ <!--    <link rel="stylesheet" type="text/css" href="../static/css/css/font-awesome.css"  th:href="@{/css/css/font-awesome.css}"/> -->
+
+</head>
+    <body>
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" >AVS Web App</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a th:href="@{/home}">Home</a></li>
+           <li ><a th:href="@{/token}">Token </a></li>
+        <li><a th:href="@{/contacts}">Contacts</a></li>
+         <li><a th:href="@{/about}">About</a></li>
+      </ul>
+     
+    </div>
+  </div>
+  </nav>
+<div class="container">
+   <div id="mainWrapper">
+       <div class="login-container">
+    <div class="login-card">
+       <div class="login-form">
+        
+    
+        <form th:action="@{/login}" method="post" class="form-horizontal">
+        <div th:if="${param.error}">
+           <div class="alert alert-danger">
+                                    <p>Invalid username and password.</p>
+                                </div>
+        </div>
+        <div th:if="${param.logout}">
+       <div class="alert alert-success">
+                                    <p>You have been logged out successfully.</p>
+                                </div>
+        </div>
+     <!--   <div>
+        
+        
+        <img th:src="@{/image/oauth.png}" src="../static/image/oauth.png" />
+    </div>
+ -->        <h1 align="center">Avril Secure Login</h1>
+           <div class="input-group input-sm">
+            <label> User Name : <input type="text" name="username"/> </label>
+            </div>
+           
+           <div class="input-group input-sm"><label> Password: <input type="password" name="password"/> </label></div>
+            <div class="form-actions">
+            <input type="submit" class="btn btn-block btn-primary btn-default" value="Log in"/></div>
+        </form>
+        </div>
+        </div>
+        </div>
+        </div>
+</div>
+     <div id="footer" class="col-md-12 loginBottom">
+      <div class="col-md-6">
+			&copy; Avril Intellectual Property. All Rights Reserved
+		</div>
+		<div class="col-md-6 listBottom">
+			<ul>
+				<!-- <li><a th:href="@{/#}">Terms  Conditions</a></li>
+				<li><a th:href="@{/#}">Privacy Policy</a></li>
+				<li><a th:href="@{/#}">Write to Avril support</a></li> -->
+				<li><a >Terms  Conditions</a></li>
+				<li><a >Privacy Policy</a></li>
+				<li><a >Write to Avril support</a></li>
+			</ul>
+		</div>
+		</div>
+    </body>
+</html>

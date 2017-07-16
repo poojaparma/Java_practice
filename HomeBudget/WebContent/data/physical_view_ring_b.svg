@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" [
+	<!ENTITY ns_flows "http://ns.adobe.com/Flows/1.0/">
+	<!ENTITY ns_extend "http://ns.adobe.com/Extensibility/1.0/">
+	<!ENTITY ns_ai "http://ns.adobe.com/AdobeIllustrator/10.0/">
+	<!ENTITY ns_graphs "http://ns.adobe.com/Graphs/1.0/">
+]>
+<svg version="1.1" xmlns:x="&ns_extend;" xmlns:i="&ns_ai;" xmlns:graph="&ns_graphs;"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+	 x="0px" y="0px" width="500px" height="480px" viewBox="0 0 500 480" enable-background="new 0 0 500 480" xml:space="preserve">
+<g id="Layer_7" display="none">
+	<g display="inline">
+		<path fill="none" stroke="#EC2327" stroke-width="4" stroke-miterlimit="10" d="M479.005,919.739
+			c-57.384,0-113.052-11.239-165.457-33.404c-50.617-21.409-96.076-52.059-135.114-91.096
+			c-39.037-39.038-69.687-84.497-91.096-135.114c-22.165-52.405-33.404-108.073-33.404-165.457
+			c0-57.384,11.239-113.052,33.404-165.457c21.409-50.617,52.059-96.076,91.096-135.114c39.038-39.038,84.497-69.687,135.114-91.096
+			c52.405-22.166,108.073-33.404,165.457-33.404S592.057,80.835,644.462,103c50.617,21.409,96.076,52.059,135.114,91.096
+			c39.037,39.038,69.687,84.497,91.096,135.114c22.165,52.405,33.404,108.073,33.404,165.457
+			c0,57.384-11.239,113.052-33.404,165.457c-21.409,50.617-52.059,96.076-91.096,135.114
+			c-39.038,39.037-84.497,69.687-135.114,91.096C592.057,908.5,536.389,919.739,479.005,919.739z M479.005,70.596
+			c-233.834,0-424.071,190.237-424.071,424.071s190.237,424.071,424.071,424.071s424.071-190.237,424.071-424.071
+			S712.839,70.596,479.005,70.596z"/>
+	</g>
+	<g display="inline">
+		<path fill="none" stroke="#3954A4" stroke-width="4" stroke-miterlimit="10" d="M479.005,863.614
+			c-49.808,0-98.125-9.755-143.61-28.994c-43.935-18.582-83.391-45.185-117.274-79.067c-33.883-33.884-60.485-73.34-79.067-117.274
+			c-19.239-45.485-28.994-93.803-28.994-143.61c0-49.807,9.755-98.125,28.994-143.611c18.582-43.934,45.185-83.39,79.067-117.273
+			c33.884-33.883,73.34-60.486,117.274-79.068c45.485-19.239,93.803-28.994,143.61-28.994s98.125,9.755,143.61,28.994
+			c43.935,18.583,83.391,45.185,117.274,79.068c33.883,33.883,60.485,73.34,79.067,117.273
+			c19.239,45.486,28.994,93.804,28.994,143.611c0,49.808-9.755,98.125-28.994,143.61c-18.582,43.935-45.185,83.391-79.067,117.274
+			c-33.884,33.883-73.34,60.485-117.274,79.067C577.13,853.859,528.813,863.614,479.005,863.614z M479.005,126.721
+			c-202.887,0-367.946,165.06-367.946,367.946c0,202.887,165.06,367.946,367.946,367.946s367.946-165.06,367.946-367.946
+			C846.951,291.781,681.892,126.721,479.005,126.721z"/>
+	</g>
+</g>
+<g id="Layer_8">
+	<path fill="#EC2327" d="M249.517,456.098c-79.028,0-145.423-44.406-162.757-103.87h-2.063c2.176,7.582,5.166,15.01,8.964,22.244
+		c8.52,16.226,20.716,30.797,36.25,43.312c15.534,12.514,33.623,22.338,53.766,29.201c20.854,7.105,43.006,10.708,65.841,10.708
+		c22.834,0,44.985-3.603,65.84-10.708c20.143-6.863,38.232-16.687,53.767-29.201c15.534-12.514,27.729-27.086,36.249-43.312
+		c3.799-7.234,6.789-14.663,8.964-22.244h-2.063C394.939,411.692,328.545,456.098,249.517,456.098z"/>
+</g>
+<g id="Layer_13">
+	<path fill="#3954A4" d="M249.517,438.191c-66.693,0-123.01-36.476-139.823-85.963h-2.082c1.732,5.186,3.911,10.283,6.531,15.274
+		c7.399,14.093,17.993,26.75,31.485,37.62c13.493,10.869,29.206,19.403,46.7,25.363c18.113,6.172,37.354,9.301,57.188,9.301
+		c19.833,0,39.074-3.129,57.188-9.301c17.494-5.96,33.207-14.494,46.7-25.363c13.493-10.87,24.086-23.526,31.485-37.62
+		c2.62-4.991,4.799-10.088,6.531-15.274h-2.082C372.526,401.715,316.21,438.191,249.517,438.191z"/>
+</g>
+<g id="Layer_9">
+	<path fill="#3954A4" d="M187.96,107.346v-2.172c-14.771,6.995-28.139,16.414-39.795,28.071
+		c-13.092,13.092-23.371,28.337-30.551,45.313c-7.008,16.568-10.757,34.109-11.164,52.187h1.922
+		C109.631,176.444,141.815,129.654,187.96,107.346z"/>
+</g>
+<g id="Layer_10">
+	<path fill="#EC2327" d="M187.96,83.751v-2.114c-0.961,0.385-1.921,0.777-2.877,1.182c-19.545,8.266-37.097,20.101-52.17,35.173
+		c-15.072,15.073-26.906,32.625-35.173,52.169c-8.133,19.228-12.453,39.594-12.863,60.583H86.8
+		C88.134,164.29,129.631,107.514,187.96,83.751z"/>
+</g>
+<g id="Layer_11">
+	<path fill="#3954A4" d="M389.564,230.744h1.923c-0.407-18.078-4.157-35.618-11.166-52.187
+		c-7.179-16.976-17.457-32.221-30.55-45.313c-11.796-11.796-25.346-21.3-40.328-28.319v2.166
+		C355.872,129.296,388.302,176.235,389.564,230.744z"/>
+</g>
+<g id="Layer_12">
+	<path fill="#EC2327" d="M411.137,230.744h1.923c-0.41-20.989-4.73-41.354-12.863-60.583c-8.266-19.544-20.101-37.096-35.173-52.169
+		c-15.073-15.073-32.625-26.907-52.169-35.173c-1.133-0.479-2.271-0.943-3.411-1.396v2.113
+		C368.052,107.171,409.798,164.088,411.137,230.744z"/>
+</g>
+<g id="Layer_5">
+	<g>
+		<g>
+			<g>
+				<path fill="#8DC63F" d="M434.809,349.482c0,2.211-1.774,4.003-3.964,4.003h-57.637c-2.19,0-3.965-1.792-3.965-4.003V234.364
+					c0-2.211,1.774-4.004,3.965-4.004h57.637c2.189,0,3.964,1.793,3.964,4.004V349.482z"/>
+				<rect x="369.243" y="250.816" fill="#FFF200" width="65.565" height="23.779"/>
+				<rect x="369.243" y="309.167" fill="#FFF200" width="65.565" height="23.781"/>
+				<g>
+					<rect x="372.21" y="256.853" fill="none" width="59.633" height="13.902"/>
+					<text transform="matrix(1 0 0 1 384.585 261.4521)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="6.0364">40 CH DMUX</tspan><tspan x="2.142" y="7.244" fill="#414042" font-family="'Roboto-Light'" font-size="6.0364">40 CH WSS</tspan></text>
+				</g>
+				<g>
+					<rect x="372.21" y="285.388" fill="none" width="59.633" height="13.902"/>
+					<text transform="matrix(1 0 0 1 392.8945 289.9878)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="6.0364">Shelf 1</tspan><tspan x="0.769" y="7.244" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="6.0364">15454</tspan></text>
+				</g>
+				<g>
+					<rect x="372.21" y="315.021" fill="none" width="59.633" height="13.902"/>
+					<text transform="matrix(1 0 0 1 384.585 319.6211)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="6.0364">40 CH DMUX</tspan><tspan x="2.142" y="7.244" fill="#414042" font-family="'Roboto-Light'" font-size="6.0364">40 CH WSS</tspan></text>
+				</g>
+			</g>
+			<g>
+				<polygon fill="#3954A4" points="382.043,245.348 398.952,245.348 390.497,230.36 				"/>
+				<polygon fill="#EC2327" points="422.01,230.36 405.101,230.36 413.556,245.348 				"/>
+			</g>
+			<g>
+				<polygon fill="#3954A4" points="382.043,353.722 398.952,353.722 390.497,338.734 				"/>
+				<polygon fill="#F0676A" points="422.01,338.734 405.101,338.734 413.556,353.723 				"/>
+			</g>
+		</g>
+		<polygon fill="#EC2327" points="422.01,338.351 405.101,338.351 413.556,353.338 		"/>
+	</g>
+	<g>
+		<g>
+			<g>
+				<path fill="#8DC63F" d="M130.053,349.482c0,2.211-1.774,4.003-3.964,4.003H68.452c-2.189,0-3.965-1.792-3.965-4.003V234.364
+					c0-2.211,1.775-4.004,3.965-4.004h57.637c2.189,0,3.964,1.793,3.964,4.004V349.482z"/>
+				<rect x="64.487" y="250.816" fill="#FFF200" width="65.565" height="23.779"/>
+				<rect x="64.487" y="309.167" fill="#FFF200" width="65.565" height="23.781"/>
+				<g>
+					<rect x="67.455" y="256.853" fill="none" width="59.633" height="13.902"/>
+					<text transform="matrix(1 0 0 1 79.8301 261.4521)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="6.0364">40 CH DMUX</tspan><tspan x="2.142" y="7.244" fill="#414042" font-family="'Roboto-Light'" font-size="6.0364">40 CH WSS</tspan></text>
+				</g>
+				<g>
+					<rect x="67.455" y="285.388" fill="none" width="59.633" height="13.902"/>
+					<text transform="matrix(1 0 0 1 88.1387 289.9878)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="6.0364">Shelf 1</tspan><tspan x="0.77" y="7.244" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="6.0364">15454</tspan></text>
+				</g>
+				<g>
+					<rect x="67.455" y="315.021" fill="none" width="59.633" height="13.902"/>
+					<text transform="matrix(1 0 0 1 79.8301 319.6211)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="6.0364">40 CH DMUX</tspan><tspan x="2.142" y="7.244" fill="#414042" font-family="'Roboto-Light'" font-size="6.0364">40 CH WSS</tspan></text>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon fill="#EC2327" points="77.287,245.348 94.196,245.348 85.741,230.36 					"/>
+					<polygon fill="#3954A4" points="117.255,230.36 100.345,230.36 108.8,245.348 					"/>
+				</g>
+			</g>
+			<g>
+				<g>
+					<polygon fill="#EC2327" points="77.287,353.722 94.196,353.722 85.741,338.734 					"/>
+					<polygon fill="#3954A4" points="117.255,338.734 100.345,338.734 108.8,353.723 					"/>
+				</g>
+			</g>
+		</g>
+	</g>
+	<g>
+		<g>
+			<g>
+				<path fill="#8DC63F" d="M306.823,61.533c2.211,0,4.003,1.775,4.003,3.964v57.636c0,2.19-1.792,3.965-4.003,3.965H191.705
+					c-2.211,0-4.005-1.775-4.005-3.965V65.497c0-2.189,1.794-3.964,4.005-3.964H306.823z"/>
+				<rect x="208.157" y="61.533" fill="#FFF200" width="23.78" height="65.565"/>
+				<rect x="266.509" y="61.533" fill="#FFF200" width="23.78" height="65.565"/>
+				<g>
+					<rect x="214.194" y="64.499" fill="none" width="13.901" height="59.632"/>
+					<text transform="matrix(0 -1 1 0 218.7939 111.7563)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="6.0364">40 CH DMUX</tspan><tspan x="2.142" y="7.244" fill="#414042" font-family="'Roboto-Light'" font-size="6.0364">40 CH WSS</tspan></text>
+				</g>
+				<g>
+					<rect x="242.729" y="64.499" fill="none" width="13.902" height="59.632"/>
+					<text transform="matrix(0 -1 1 0 247.3291 103.4478)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="6.0364">Shelf 1</tspan><tspan x="0.77" y="7.244" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="6.0364">15454</tspan></text>
+				</g>
+				<g>
+					<rect x="272.362" y="64.499" fill="none" width="13.902" height="59.632"/>
+					<text transform="matrix(0 -1 1 0 276.9619 111.7563)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="6.0364">40 CH DMUX</tspan><tspan x="2.142" y="7.244" fill="#414042" font-family="'Roboto-Light'" font-size="6.0364">40 CH WSS</tspan></text>
+				</g>
+			</g>
+			<g>
+				<polygon fill="#3954A4" points="202.688,114.299 202.688,97.389 187.7,105.844 				"/>
+				<polygon fill="#EC2327" points="187.701,74.331 187.701,91.241 202.689,82.786 				"/>
+			</g>
+		</g>
+		<g>
+			<polygon fill="#EC2327" points="296.075,74.331 296.075,91.241 311.063,82.786 			"/>
+		</g>
+	</g>
+	<g>
+		<rect x="136.419" y="278.48" fill="none" width="68.203" height="27.719"/>
+		<text transform="matrix(1 0 0 1 160.1104 281.9941)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">A</tspan><tspan x="2.59" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">T&amp;T POP</tspan><tspan x="-1.401" y="5.534" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">358 Gest St </tspan><tspan x="-10.89" y="11.068" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">Cincinnati, OH 45203</tspan><tspan x="-12.73" y="16.602" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">Site ID: IMLEUSOH007</tspan><tspan x="-22.987" y="22.136" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">CLLI Code: CNCOOHFP</tspan><tspan x="23.93" y="22.136" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">W</tspan><tspan x="27.963" y="22.136" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">A0Shelf</tspan></text>
+	</g>
+	<g>
+		<rect x="300.902" y="278.48" fill="none" width="64.104" height="27.719"/>
+		<text transform="matrix(1 0 0 1 317.4873 281.9941)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">GIS - Cincinnati</tspan><tspan x="-4.555" y="5.534" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">8700 G</tspan><tspan x="10.209" y="5.534" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">ov</tspan><tspan x="14.969" y="5.534" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">ernors Hill</tspan><tspan x="-5.766" y="11.068" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">Cincinnati, OH 45249</tspan><tspan x="-7.606" y="16.602" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">Site ID: IMLEUSOH101</tspan><tspan x="-13.116" y="22.136" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">CLLI Code: CNCNOHWKN03</tspan></text>
+	</g>
+	<g>
+		<rect x="213.096" y="134.365" fill="none" width="68.203" height="27.719"/>
+		<text transform="matrix(1 0 0 1 231.3818 137.8789)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">GIS - IM Mason</tspan><tspan x="-1.517" y="5.534" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">4800 </tspan><tspan x="10.093" y="5.534" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">P</tspan><tspan x="12.921" y="5.534" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">arkw</tspan><tspan x="22.726" y="5.534" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">a</tspan><tspan x="25.171" y="5.534" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">y Dr</tspan><tspan x="-2.432" y="11.068" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">Mason, OH 45040</tspan><tspan x="-7.326" y="16.602" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">Site ID: IMLEUSOH100</tspan><tspan x="-12.509" y="22.136" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">CLLI Code: </tspan><tspan x="10.242" y="22.136" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">M</tspan><tspan x="14.279" y="22.136" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">ASNO</tspan><tspan x="26.309" y="22.136" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">H</tspan><tspan x="29.609" y="22.136" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">A</tspan><tspan x="32.465" y="22.136" fill="#414042" font-family="'Roboto-Light'" font-size="4.6117">GN03</tspan></text>
+	</g>
+	<rect x="437.956" y="236.423" fill="#8DC63F" width="54.638" height="53.794"/>
+	<g>
+		<rect x="451.646" y="248.894" fill="none" width="27.694" height="28.853"/>
+		<text transform="matrix(1 0 0 1 462.0898 255.3999)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="8.5387"> 1</tspan><tspan x="-8.427" y="10.247" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="8.5387">15454</tspan><tspan x="-7.916" y="20.493" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="8.5387">21, 24</tspan></text>
+	</g>
+	<rect x="222.362" y="3.729" fill="#8DC63F" width="54.638" height="53.794"/>
+	<g>
+		<rect x="236.053" y="16.199" fill="none" width="27.694" height="28.853"/>
+		<text transform="matrix(1 0 0 1 236.9814 22.7056)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="8.5387">Shelf 1</tspan><tspan x="1.088" y="10.247" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="8.5387">15454</tspan><tspan x="1.599" y="20.493" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="8.5387">21, 23</tspan></text>
+	</g>
+	<rect x="437.956" y="292.532" fill="#8DC63F" width="54.638" height="53.794"/>
+	<g>
+		<rect x="451.646" y="305.002" fill="none" width="27.694" height="28.853"/>
+		<text transform="matrix(1 0 0 1 452.5752 311.5083)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="8.5387">Shelf 3</tspan><tspan x="1.088" y="10.247" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="8.5387">15454</tspan><tspan x="1.599" y="20.493" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="8.5387">25, 27</tspan></text>
+	</g>
+	<rect x="7.532" y="236.423" fill="#8DC63F" width="54.638" height="53.794"/>
+	<g>
+		<rect x="21.222" y="248.894" fill="none" width="27.694" height="28.853"/>
+		<text transform="matrix(1 0 0 1 22.1514 255.3999)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="8.5387">Shelf 1</tspan><tspan x="1.088" y="10.247" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="8.5387">15454</tspan><tspan x="1.599" y="20.493" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="8.5387">21, 22</tspan></text>
+	</g>
+	<rect x="7.532" y="292.532" fill="#8DC63F" width="54.638" height="53.794"/>
+	<g>
+		<rect x="8.155" y="305.002" fill="none" width="53.65" height="28.853"/>
+		<text transform="matrix(1 0 0 1 22.0625 311.5083)"><tspan x="0" y="0" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="8.5387">Shelf 3</tspan><tspan x="1.088" y="10.247" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="8.5387">15454</tspan><tspan x="-11.576" y="20.493" fill="#FFFFFF" font-family="'Roboto-Light'" font-size="8.5387">23, 24, </tspan><tspan x="14.775" y="20.493" fill="#EC2327" font-family="'Roboto-Light'" font-size="8.5387">25, 27</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(0.4766 -0.8791 0.8791 0.4766 120.9912 152.3423)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="7.0944">72.7 </tspan><tspan x="15.214" y="-0.001" fill="#414042" font-family="'Roboto-Light'" font-size="7.0944">K</tspan><tspan x="19.666" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="7.0944">m</tspan><tspan x="4.009" y="8.513" fill="#414042" font-family="'Roboto-Light'" font-size="7.0944">18 dB</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(0.6552 0.7555 -0.7555 0.6552 365.668 135.8574)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="7.0944">3.4 </tspan><tspan x="11.283" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="7.0944">K</tspan><tspan x="15.733" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="7.0944">m</tspan><tspan x="4.01" y="8.513" fill="#414042" font-family="'Roboto-Light'" font-size="7.0944">1 dB</tspan></text>
+	</g>
+	<g>
+		<text transform="matrix(1 0 0 1 236.707 445.6079)"><tspan x="0" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="7.0944">52.2 </tspan><tspan x="15.214" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="7.0944">K</tspan><tspan x="19.665" y="0" fill="#414042" font-family="'Roboto-Light'" font-size="7.0944">m</tspan><tspan x="1.197" y="8.513" fill="#414042" font-family="'Roboto-Light'" font-size="7.0944">15.5 dB</tspan></text>
+	</g>
+</g>
+</svg>

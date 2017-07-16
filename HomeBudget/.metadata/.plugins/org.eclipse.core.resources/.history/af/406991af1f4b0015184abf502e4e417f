@@ -1,0 +1,25 @@
+package com.java.aop;
+
+public class BankAccountDAO {
+//	n AOP, a feature like metrics is called a crosscutting concern, 
+	//as it's a behavior that "cuts" across multiple points in your object models, yet is distinctly different. 
+	//As a development methodology, AOP recommends that you abstract and encapsulate crosscutting concerns.
+	  public void withdraw(double amount)
+	  {
+	    long startTime = System.currentTimeMillis();
+	    try
+	    {
+	      // Actual method body...
+	    }
+	    finally
+	    {
+	      long endTime = System.currentTimeMillis() - startTime;
+	      System.out.println("withdraw took: " + endTime);
+	    }
+	  }
+	  
+	  /*It's extremely difficult to turn metrics on and off, as you have to manually add the code in the try>/finally block to each and every method or constructor you want to benchmark.
+	  The profiling code really doesn't belong sprinkled throughout your application code. It makes your code bloated and harder to read, as you have to enclose the timings within a try/finally block.
+	  If you wanted to expand this functionality to include a method or failure count, or even to register these statistics to a more sophisticated reporting mechanism, 
+	  you'd have to modify a lot of different files (again).
+*/}

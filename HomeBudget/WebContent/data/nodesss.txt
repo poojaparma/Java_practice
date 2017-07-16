@@ -1,0 +1,49 @@
+{
+"nodes":[
+{"name":"Winward", "icon":"crs-1", "x":38.238180, "y":-97.932129},
+{"name":"Cobb", "icon":"ne", "x":40.044438, "y":-89.450684},
+{"name":"Peachtree", "icon":"ons", "x":35.603719, "y":-86.418457},
+{"name":"Courtland", "icon":"crs-1", "x":38.238180, "y":-97.932129},
+{"name":"Gest", "icon":"ne", "x":40.044438, "y":-89.450684},
+{"name":"Parkway", "icon":"ons", "x":35.603719, "y":-86.418457},
+{"name":"Govemors", "icon":"crs-1", "x":38.238180, "y":-97.932129}
+],
+"links":[
+{"source":0,"target":1, "type":"solid", "distance":"65.8 Km"},
+{"source":0,"target":1, "type":"dotted", "distance":"1 x 10IM (U, CCW)"},
+{"source":0,"target":1, "type":"dotted", "distance":"8 x IM (P, Y-Cable)"},
+{"source":0,"target":1, "type":"dotted", "distance":"10 x IM (U, CCW)"},
+{"source":0,"target":1, "type":"dotted", "distance":"3 x IM (500M, P)"},
+{"source":0,"target":1, "type":"dotted", "distance":"1 x IM (150M, P)"},
+{"source":0,"target":1, "type":"dotted", "distance":"2 x 100M (P)"},
+{"source":0,"target":1, "type":"dotted", "distance":"1 x 100M (P)"},
+{"source":0,"target":1, "type":"dotted", "distance":"1 x OC12 (P)"},
+{"source":0,"target":1, "type":"dotted", "distance":"4 x OC3 (P)"},
+{"source":0,"target":1, "type":"dotted", "distance":"6 x DS3 (P)"},
+{"source":0,"target":1, "type":"dotted", "distance":"10 x DS1 (P)"},
+
+{"source":1,"target":2, "type":"solid", "distance":"21.7 Km"},
+
+{"source":2,"target":3, "type":"solid", "distance":"0.7 Km"},
+
+{"source":3,"target":0, "type":"solid", "distance":"77.7 Km"},
+
+{"source":2,"target":0, "type":"dotted", "distance":"1 x D (U, CCW)"},
+{"source":2,"target":0, "type":"dotted", "distance":"8 x IM (P, Y-Cable)"},
+{"source":2,"target":0, "type":"dotted", "distance":"10 x IM (U, CCW)"},
+{"source":2,"target":0, "type":"dotted", "distance":"1 x IM (150M, P)"},
+{"source":2,"target":0, "type":"dotted", "distance":"3 x IM (150M, P)"},
+{"source":2,"target":0, "type":"dotted", "distance":"2 x 100M (P)"},
+{"source":2,"target":0, "type":"dotted", "distance":"7 x OC3 (P)"},
+{"source":2,"target":0, "type":"dotted", "distance":"15 x DS3 (P)"},
+{"source":2,"target":0, "type":"dotted", "distance":"12 x DS1 (P)"},
+
+
+
+{"source":3,"target":0, "type":"dotted", "distance":"1 x IM (100M, P)"},
+{"source":3,"target":0, "type":"dotted", "distance":"1 x IM (P)"},
+{"source":3,"target":0, "type":"dotted", "distance":"1 x IM (150M, P)"},
+{"source":3,"target":0, "type":"dotted", "distance":"1 x OC3 (P)"},
+{"source":3,"target":0, "type":"dotted", "distance":"1 x DS3 (P)"}
+
+]}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.eclipse.jdt.launching.localJavaApplication">
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
+<listEntry value="/BudgetFinale/src/main/java/com/budget/spring/controller/CircuitBreakerDemo.java"/>
+</listAttribute>
+<listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
+<listEntry value="1"/>
+</listAttribute>
+<stringAttribute key="org.eclipse.jdt.launching.MAIN_TYPE" value="com.budget.spring.controller.CircuitBreakerDemo"/>
+<stringAttribute key="org.eclipse.jdt.launching.PROJECT_ATTR" value="BudgetFinale"/>
+</launchConfiguration>

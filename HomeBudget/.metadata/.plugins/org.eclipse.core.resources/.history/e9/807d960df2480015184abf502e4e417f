@@ -1,0 +1,32 @@
+package com.java.practice;
+
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Set;
+
+
+public class LinkedHashMap {
+public static void main(String[] args) {
+	HashMap hshMap = new HashMap();
+	java.util.LinkedHashMap map = new 	java.util.LinkedHashMap();
+	
+	for(int i=0;i<10;i++){
+	hshMap.put(i, i+i);
+	map.put(i, i+i);
+	}
+	/*hshMap.put(11, 1);
+	hshMap.put(10, 0);*/
+	System.out.println("hashMap is: " + hshMap +"\n" +map);
+	Set set =hshMap.keySet();
+	for(Object ob:set){
+		System.out.println("print valuer: " + ob);
+	}
+	/*Iterator itr=set.iterator();
+	while(itr.hasNext()){
+		Object i =itr.next();
+		System.out.println("print valuer: " + i);
+	}*/
+}
+}
+
+

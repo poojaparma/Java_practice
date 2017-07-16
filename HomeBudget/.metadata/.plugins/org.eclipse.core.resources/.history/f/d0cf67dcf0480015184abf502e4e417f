@@ -1,0 +1,23 @@
+package com.java.practice;
+
+import java.util.List;
+//If the instance fields include references to mutable objects, don't allow those objects to be changed:
+
+//Don't provide methods that modify the mutable objects.
+public class EmployeeImuttable {
+private final Person person;
+private final List<String> list;
+
+public EmployeeImuttable (Person person ,List<String> list){
+	this.person=person;
+	this.list=list;
+}
+
+public Person getPerson() {
+	return person;
+}
+
+public List<String> getList() {
+	return list;
+}
+}

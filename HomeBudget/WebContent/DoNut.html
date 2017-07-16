@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<style>
+body {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  width: 960px;
+  height: 500px;
+  position: relative;
+}
+path.slice{
+	stroke-width:2px;
+}
+polyline{
+	opacity: .3;
+	stroke: black;
+	stroke-width: 2px;
+	fill: none;
+} 
+svg text.percent{
+	fill:white;
+	text-anchor:middle;
+	font-size:12px;
+}
+
+</style>
+<body>
+<button onClick="changeData()">Change Data</button>
+<script src="js/d3/d3.v3.min.js"></script>
+<script src="js/util/Donut3D.js"></script>
+ <script src="js/jquery.min.js"></script>
+<script>
+
+/* Donut3D.transition("salesDonut", changeData(), 130, 100, 30, 0.4,150, 120, 130, 100,80);
+			$('#submit').on('click', function(e){
+				var bdprofile = $('#user').val();
+				var pass = $('#password').val();
+				var myObject = new Object();
+				myObject.userId = bdprofile;
+				myObject.password = pass;
+				$.cookie('accountHref',bdprofile,{expires:1});
+				$.cookie('password',password,{expires:1});
+				var myString = JSON.stringify(myObject);
+				alert(myString); */
+				
+			
+
+				
+				
+		//	});//submit ends..
+
+
+function changeData( ){
+
+var salesData=[
+           	{label:"Daily", color:"#3366CC"},
+           	{label:"Medical", color:"#DC3912"},
+           	{label:"Kid", color:"#FF9900"},
+           	{label:"outing", color:"#109618"},
+           	{label:"Vehicle", color:"#990099"},
+           	{label:"Bill", color:"#00FFFF"},
+           	{label:"Rent", color:"#FF1493"},
+           	{label:"Cosmetics", color:"#5F9EA0"},
+           	{label:"Office", color:"#7FFF00"}
+           ];
+
+           var svg = d3.select("body").append("svg").attr("width",700).attr("height",300);
+
+           svg.append("g").attr("id","salesDonut");
+           $.ajax({
+        	   
+        	    type: 'GET',
+        	    url: 'http://localhost:8000/BudgetFinale/api/Budget/pie',
+        	   
+        	    contentType: "application/json; charset=utf-8",
+        	    dataType: 'json',
+        	   
+        	    statusCode: {
+        		
+        	        404: function(d) {
+        	        	alert("ajax");
+        	            
+        	        },
+        	        
+        			200: function(d) {
+        			
+
+
+
+        	},
+
+        	    },
+        	    async: false
+        	});				
+	
+}
+
+
+</script>
+</body>

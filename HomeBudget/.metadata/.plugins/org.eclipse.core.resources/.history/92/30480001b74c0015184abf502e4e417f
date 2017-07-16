@@ -1,0 +1,40 @@
+<!-- <?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN 2.0//EN"
+        "http://www.springframework.org/dtd/spring-beans-2.0.dtd">
+
+<beans>
+inheritnce beans,initializing bean have method to control life cycle of bean
+init method can be mentioned ........in xml
+	bean definitions here
+	<bean id="triangle" class="com.spring.examples.Triangle">
+		<property name="type" value="Equilateral"/>
+		<property name="pointA"  >
+	 <bean class="com.spring.examples.Point">
+		<property name="x" value="100" />
+		<property name="y" value="200" />
+	</bean>
+		</property>
+		 <property name="pointB" ref="one"/>
+		 <property name="pointC" ref="two"/> 
+		 <construct0"/> <constructor-arg index ="0" 
+			value="10"/> <property name="pointC" ref="two"/>
+	</bean>
+	<bean id="zero" class="com.spring.examples.Point">
+		<property name="x" value="0" />
+		<property name="y" value="2" />
+	</bean>
+
+	 <bean id="one" class="com.spring.examples.Point">
+		<property name="x" value="100" />
+		<property name="y" value="200" />
+	</bean>
+	 <bean id="two" class="com.spring.examples.Point">
+		<property name="x" value="10" />
+		<property name="y" value="20" />
+	</bean>
+	<bean id="two" class="com.spring.examples.Point">
+		<property name="x" value="300" />
+		<property name="y" value="400 />
+	</bean>
+</beans> -->

@@ -1,0 +1,53 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link href="css/bootstrap.min.css" rel="stylesheet" />
+<link href="css/topology.css" rel="stylesheet" />
+
+<script>
+
+function nodeSelected(d){
+	clearLinksInfo();
+	showNodeInfo(d);
+}
+function nodeClear(){
+	clearLinksInfo();
+}
+
+function showCircuit(data){
+	highlightPaths(data);
+}
+
+</script>
+</head>
+
+<body>
+
+<div id="zoomSection">
+	<a class="zoom zoomP" rel="in" onclick="zoomBtn('')">+</a>
+	<a class="zoom zoomR" rel="out" onclick="zoomBtn('out')">-</a>
+	<a class="zoom"><img onclick='clearLinksInfo()' src='images/reset.png'/></a>
+</div>
+					<div id="mapDetailSection">
+						
+					</div>
+<div id="svgSection"></div>
+
+
+<!-- Kendo Script    -->
+<script src="js/kendo/jquery.min.js"></script>
+<script src="js/theme/bootstrap.min.js"></script>
+<script src="js/theme/main.min.js"></script>
+<!-- D3js Script -->
+<script src="js/d3/d3.v3.min.js" charset="utf-8"></script>
+<script src="js/d3/d3.geo.tile.v0.min.js" charset="utf-8"></script>
+<script src="js/d3/topojson.v1.min.js" charset="utf-8"></script>
+
+
+<script src="js/util/topology.js"></script>
+
+
+</body>
+</html>

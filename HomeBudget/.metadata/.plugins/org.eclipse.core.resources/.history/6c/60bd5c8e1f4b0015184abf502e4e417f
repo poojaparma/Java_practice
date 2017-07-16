@@ -1,0 +1,18 @@
+package com.java.aop;
+
+public class BankAccountDAO {
+
+	  public void withdraw(double amount)
+	  {
+	    long startTime = System.currentTimeMillis();
+	    try
+	    {
+	      // Actual method body...
+	    }
+	    finally
+	    {
+	      long endTime = System.currentTimeMillis() - startTime;
+	      System.out.println("withdraw took: " + endTime);
+	    }
+	  }
+}

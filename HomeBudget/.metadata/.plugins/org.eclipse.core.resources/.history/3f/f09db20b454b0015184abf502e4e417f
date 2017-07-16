@@ -1,0 +1,122 @@
+<!doctype html>
+<html ng-app="MyStore">
+  <head>
+    <title>Shopping Cart with AngularJS</title>
+<!-- Kendo UI -->
+<link href="css/css/kendo/kendo.common.min.css" rel="stylesheet" />
+<link href="css/css/kendo/kendo.bootstrap.min.css" rel="stylesheet" />
+<link href="css/css/kendo/kendo.dataviz.min.css" rel="stylesheet" />
+<link href="css/css/kendo/kendo.dataviz.default.min.css" rel="stylesheet" />
+    <!--CDN for jQuery and Angular -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript" ></script>
+    <script src="js/angular.min.js" type="text/javascript"></script>
+
+    <link href="css/css/kendo/kendo.bootstrap.min.css" rel="stylesheet" />
+    <!-- Theme  comment these links import one by one to understand the impact -->
+		<link rel="stylesheet" href="css/css/theme/main.min.css">
+		<link href="css/bootstrap.min.css" rel="stylesheet" />
+		<link href="css/css/style.css" rel="stylesheet" />
+   
+    <!—contains AngularStore app -->
+    <script src="js/util/product.js" type="text/javascript"></script>
+    <script src="js/util/store.js" type="text/javascript"></script>
+    <script src="js/util/shoppingcart.js" type="text/javascript"></script>
+    <script src="js/util/app.js" type="text/javascript"></script>
+    <script src="js/util/controller.js" type="text/javascript"></script>
+    <link href="css/style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <div class="container-fluid">
+        <div class="row-fluid">
+               
+                <div id="top">
+                 <header class="navbar-header logo">
+          	 <h1 class="well" >
+                    <a href="index.html">
+                        <img class='imagem_artigo' src="images/homebg.jpg" height="100" width="100" alt="logo"/>
+                    </a>
+                   Brick Home
+                </h1>
+              
+          	
+          </header>
+          <header class="navbar-header logo">
+          	 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+              <span class="sr-only">Toggle navigation</span> 
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span> 
+              <span class="icon-bar"></span> 
+            </button>
+           <span>Imagine: </span><b><span id="user"></span></b>
+           <span class="float-right mobile-left"><span>Last Login :</span><b id="date"></b></span>
+          </header>
+           <nav class="navbar navbar-inverse navbar-static-top">
+              <div class="topnav">
+                <div class="btn-toolbar">
+                     
+                  <div class="btn-group" id="logout">
+        
+                    <a href="#" data-toggle="tooltip"  data-placement="bottom" class="btn btn-metis-1 btn-sm dashboardLogout logout">
+                      <img src="images/logout.png" />
+                    </a> 
+                  </div>
+                </div>
+              </div><!-- /.topnav -->
+	          <div class="collapse navbar-collapse navbar-ex1-collapse">
+
+               <!--  .nav -->
+               <ul class="nav navbar-nav menu">
+                  <li class="active">
+                    <a href="home.html"><img src="images/homeIcon.png" />Home</a> 
+                  </li>
+                  <li> <a href="app.html"><img src="images/alarmIcon.png" />Home Budget</a>  </li>
+                  <li  > <a href="analyze.html"><img src="images/circuitsIcon.png" />Analysis</a>  </li>
+                  <li class='dropdown'>
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                      <img src="images/requestIcon.png" />Raise a Request
+                      <b class="caret"></b>
+                    </a> 
+                    <ul class="dropdown-menu">
+                      <li> <a href="#">General</a>  </li>
+                      <li> <a href="#">Queries</a>  </li>
+                      <li> <a href="#">Request</a>  </li>
+                    </ul>
+                  </li>
+                </ul><!-- /.nav -->
+              </div>
+        </nav><!-- /.navbar -->
+        <!--  header.head -->
+        <header class="">
+          <div class="search-bar">
+            <a  data-placement="bottom" data-tooltip="tooltip" class="accordion-toggle btn btn-primary btn-sm visible-xs visible-sm dashboardLogout" id="menu-toggle">
+              <img src="images/hide.png" />
+            </a> 
+            <a href="#" data-toggle="tooltip"  data-placement="bottom" style="float:right" class="btn btn-sm dashboardLogout logout mobileLogout">
+                  <button id="logout">Logout</button>
+            </a> 
+          </div>
+        </header>
+        <!-- end header.head -->
+        </div><!-- /#top -->
+                
+          
+                <div ng-view></div>
+                
+        
+    </div>
+     <div id="footer" class="col-md-12 loginBottom">
+      <div class="col-md-6">
+			&copy; BrickANNA Intellectual Property. All Rights Reserved
+		</div>
+		<div class="col-md-6 listBottom">
+			<ul>
+				<li><a href="#">Terms & Conditions</a></li>
+				<li><a href="#">Privacy Policy</a></li>
+				<li><a href="#">Write to BrickANNA</a></li>
+			</ul>
+		</div>
+    </div>
+  </body>
+</html>
+
+

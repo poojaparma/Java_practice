@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3">
+    <head>
+        <title>Avril Web App </title>
+        <link href="../static/css/app.css"  th:href="@{/css/app.css}" rel="stylesheet" type="text/css" />
+       <!--  <link href="../static/css/main.css" th:href="@{/css/main.css}" rel="stylesheet" type="text/css" />  -->
+    <link rel="stylesheet" th:href="@{/css/bootstrap.css}" href="../static/css/bootstrap.css" />
+     <link rel="stylesheet" th:href="@{/css/bootstrap.css}" href="../static/css/ bootstrap.min.css" />
+ <!--    <link rel="stylesheet" type="text/css" href="../static/css/css/font-awesome.css"  th:href="@{/css/css/font-awesome.css}"/> -->
+
+</head>
+    <body>
+    <nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand">AVS Web App</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li ><a th:href="@{/home}">Home</a></li>
+            <li ><a th:href="@{/token}">Token </a></li>
+        <li class="active"><a th:href="@{/contacts}">Contacts</a></li>
+         <li><a th:href="@{/about}">About</a></li>
+      </ul>
+     
+    </div>
+  </div>
+  </nav>
+<div id="mainWrapper">
+		<div class="login-container">
+			<div class="login-card">
+				<h1 align="center">Contact Information</h1>
+				<p align="center">Rakesh Rana: <b>rakerana@cisco.com</b></p>
+				<p align="center">Susil Panda: <b>suchandp@cisco.com</b></p>
+
+				
+			</div>
+		</div>
+	</div>
+	
+	
+     <div id="footer" class="col-md-12 loginBottom">
+      <div class="col-md-6">
+			&copy; Avril Intellectual Property. All Rights Reserved
+		</div>
+		<div class="col-md-6 listBottom">
+			<ul>
+				<!-- <li><a th:href="@{/#}">Terms  Conditions</a></li>
+				<li><a th:href="@{/#}">Privacy Policy</a></li>
+				<li><a th:href="@{/#}">Write to Avril support</a></li> -->
+				<li><a >Terms  Conditions</a></li>
+				<li><a >Privacy Policy</a></li>
+				<li><a >Write to Avril support</a></li>
+			</ul>
+		</div>
+		</div>
+    </body>
+</html>

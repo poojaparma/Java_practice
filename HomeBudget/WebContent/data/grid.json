@@ -1,0 +1,17 @@
+[
+	{ "symbol":"AAPL", "price":665.24, "shares":100,"icon":"critical" },
+	{ "symbol":"AMZN", "price":248.27, "shares":100,"icon":"major" },
+	{ "symbol":"IBM", "price":194.85, "shares":100,"icon":"ques" },
+	{ "symbol":"CSCO", "price":19.08, "shares":100,"icon":"critical" },
+	{ "symbol":"MSFT", "price":30.82, "shares":100,"icon":"close" },
+	{ "symbol":"INTC", "price":24.83, "shares":100,"icon":"info" },
+	{ "symbol":"QCOM", "price":61.46, "shares":100,"icon":"close" },
+	{ "symbol":"ORCL", "price":31.65, "shares":100,"icon":"critical" },
+	{ "symbol":"HPQ", "price":16.88, "shares":100,"icon":"ques" },
+	{ "symbol":"MSFT", "price":30.82, "shares":100,"icon":"major" },
+	{ "symbol":"INTC", "price":24.83, "shares":100,"icon":"close" },
+	{ "symbol":"QCOM", "price":61.46, "shares":100,"icon":"info" },
+	{ "symbol":"ORCL", "price":31.65, "shares":100,"icon":"major" },
+	{ "symbol":"HPQ", "price":16.88, "shares":100,"icon":"critical" },
+	{ "symbol":"CRM", "price":145.18, "shares":100,"icon":"ques" }
+]

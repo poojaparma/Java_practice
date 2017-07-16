@@ -1,0 +1,175 @@
+@charset "UTF-8";
+/* CSS Document */
+/* Topology */
+#svgSection{
+	width:100% !important;
+	overflow:auto;
+}
+svg{
+	cursor:default;
+	width:100%;
+	height:600px;
+}
+#zoomSection
+{
+	position:absolute;
+	top:10px;
+	left:10px;
+	z-index:9999;
+}
+#mapDetailSection
+{
+
+	/*background: rgba(0,0,0,0.3);*/
+	background:rgba(255,255,100,0.3);
+	position: absolute;
+	top: 0;
+	margin-top:10px;
+	margin-right:10px;
+	right: 0;
+	width: 150px;
+	display: inline-block;
+	white-space: normal;
+	padding: 7px 0px 0px 5px;
+	min-height:70px;
+	border-radius:5px;
+	box-shadow:0 0 10px #d5d5d5;
+	z-index:9999;
+	
+}
+
+.zoom
+{
+	background: rgba(255,255,255,0.5);
+	border-bottom: 1px solid #ccc;
+	width: 26px;
+	height: 26px;
+	color:#333;
+	font-size:20px;
+	display: block;
+	text-align: center;
+	box-shadow: 0px 0px 7px #ccc;
+	cursor:pointer;
+}
+
+
+
+/* map */
+svg {
+position: relative;
+}
+#land path {
+stroke-linejoin: round;
+stroke: #fff;
+fill:#78DFF0;
+opacity:0.5;
+}
+/*.land-glow {
+fill-opacity: .2;
+filter: url(#blur);
+fill:#00B4F5;
+}
+.land-fill {
+fill: #78DFF0;
+}
+.state-boundary {
+fill: none;
+stroke: #d5d5d5;
+stroke-width: .70px;
+dashArray: '3',
+}
+.land-fill {
+stroke: #78DFF0;
+stroke-width: .35px;
+}*/
+.node {
+fill: #903;
+stroke: #000;
+z-index:-1;
+}
+.line {
+fill: #000;
+fill-opacity: 1;
+stroke: #000;
+}
+.states {
+fill: #000;
+}
+
+#land{
+fill: none;
+}
+
+.text
+{
+	fill:#333;
+	text-anchor:middle;
+	font-size:9px;
+}
+
+.linkPath
+{
+	stroke: #696969;
+}
+
+.greenlinkPath
+{
+stroke:steelblue;
+stroke-width:3px;
+}
+
+.bluelinkPath
+{
+stroke:steelblue;
+stroke-width:3px;
+}
+
+.selectedlink
+{
+stroke:#000;
+stroke-width:5px;
+}
+
+
+.selectedRedLink
+{
+stroke:#900;
+stroke-dasharray:0,1,10,2;
+stroke-width:4px;
+z-index:-1;
+}
+
+
+.selectedGreenLink
+{
+stroke:#090;
+stroke-width:10px;
+}
+
+.selectedYellowLink
+{
+stroke:#ffff00;
+stroke-width:10px;
+}
+
+.selectedGreenLinkCenter
+{
+stroke:#090;
+stroke-width:4px;
+}
+
+.selectedYellowLinkCenter
+{
+stroke:#ffff00;
+stroke-width:4px;
+}
+
+
+@media(max-width:640px){
+	#svgSection, #topologyIframe,svg {
+		height:350px !Important;
+	}
+	svg{
+		height:350px !important;
+	}
+}

@@ -1,0 +1,5 @@
+package com.aspect.circuitbreaker;
+
+public class Employee {
+
+}

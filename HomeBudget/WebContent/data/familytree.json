@@ -1,0 +1,94 @@
+[
+    {
+        "Name": "Family Members",
+        "state": [
+            "all",
+            "major",
+			"warning"
+        ],
+        "SubNodes": [
+            {
+                "Name": "Member1",
+                "state": [
+                    "all",
+                    "major",
+					"warning"
+                ],
+				"info":{
+					"groupId":"Member1",
+					"totalSites":5,
+					"totalNe":13,
+					"neAlarm":2,
+					"criticalAlarm":0,
+					"majorAlarm":2,
+					"minorAlarm":2,
+					"infoEvent":1,
+					"inService":3,
+					"outofService":0,
+					"underMaintenance":0,
+					"preProvisioned":0,
+					"neInitialization":0,
+					"neSync":0,
+					"desc":""
+				}
+                
+												
+											},
+											  {
+                "Name": "Member2",
+                "state": [
+                    "all",
+                    "major",
+					"warning"
+                ],
+				"info":{
+					"groupId":"Member2",
+					"totalSites":5,
+					"totalNe":13,
+					"neAlarm":2,
+					"criticalAlarm":0,
+					"majorAlarm":2,
+					"minorAlarm":2,
+					"infoEvent":1,
+					"inService":3,
+					"outofService":0,
+					"underMaintenance":0,
+					"preProvisioned":0,
+					"neInitialization":0,
+					"neSync":0,
+					"desc":""
+				}
+                
+												
+											},
+											 {
+                "Name": "Member3",
+                "state": [
+                    "all",
+                    "major",
+					"warning"
+                ],
+				"info":{
+					"groupId":"Member3",
+					"totalSites":5,
+					"totalNe":13,
+					"neAlarm":2,
+					"criticalAlarm":0,
+					"majorAlarm":2,
+					"minorAlarm":2,
+					"infoEvent":1,
+					"inService":3,
+					"outofService":0,
+					"underMaintenance":0,
+					"preProvisioned":0,
+					"neInitialization":0,
+					"neSync":0,
+					"desc":""
+				}
+                
+												
+											}
+				]						
+										
+				}
+				]

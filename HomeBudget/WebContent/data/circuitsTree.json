@@ -1,0 +1,317 @@
+[
+{
+    "Name": "Imagine",
+    "state": [
+        "all",
+        "active"
+    ],
+    "SubNodes": [
+        {
+            "Name": "IM Ring A",
+            "state": [
+                "all",
+                "active"
+            ],
+			"ring":"ringANode",
+            "SubNodes": [
+                {
+                    "Name": "IMLEUSGA100-IMLEUSGA008",
+                    "state": [
+                        "all",
+                        "active"
+                    ],
+					"sourceSite":"IMLEUSGA100", 
+					"destinationSite":"IMLEUSGA008",
+					"circuitSize":"10G WANPHY", 
+					"circuitType":"OCHCC",
+					"circuitStatus":"active", 
+					"sourceAddress":"IM, 1001 Windward Parkway,Alpharetta, GA 30004",
+					"destinationAddress":"AT&T POP, 3001 Cobb Parkway, Atlanta, GA 30339",
+					"biDirectional":"Yes",
+					"ituWavelength":"ITU 22 (&lambda;1559.79)",
+					"protection":"Unprotected(CCW)",
+					"ring":"ringA",
+					"SubNodes": []
+                },
+                {
+                    "Name": "IMLEUSOH101-IMLEUSOH007",
+                    "state": [
+                        "all",
+                        "active"
+                    ],
+                    "sourceSite":"IMLEUSOH101", 
+					"destinationSite":"IMLEUSOH007",
+					"circuitSize":"10G WANPHY", 
+					"circuitType":"OCHCC",
+					"circuitStatus":"active", 
+					"sourceAddress":"GIS 2nd floor, 8700 Governors Hill, Cincinnati, OH 45249",
+					"destinationAddress":"AT&T POP - Cincinnati, 358 Gest St, 2nd Floor, Cincinnati, OH 45249",
+					"biDirectional":"Yes",
+					"ituWavelength":"ITU 22 (&lambda;1559.79)",
+					"protection":"Unprotected",
+					"ring":"ringA",
+					"SubNodes": []
+                },
+                {
+                    "Name": "IMLEUSGA100-IMLEUSGA005",
+                    "state": [
+                        "all",
+                        "active"
+                    ],
+                    "sourceSite":"IMLEUSGA100", 
+					"destinationSite":"IMLEUSGA005",
+					"circuitSize":"10G LANPHY", 
+					"circuitType":"OCHCC",
+					"circuitStatus":"active", 
+					"sourceAddress":"IM, 1001 Windward Parkway, Alpharetta, GA 30004",
+					"destinationAddress":"AT&T POP - Cincinnati, 358 Gest St, 2nd Floor, Cincinnati, OH 45249",
+					"biDirectional":"Yes",
+					"ituWavelength":"ITU 27(&lambda;1555.75)",
+					"protection":"Y-Cable",
+					"ring":"ringA",
+					"SubNodes": []
+                },
+                {
+                    "Name": "IMLEUSGA100-IMLEUSGA005",
+                    "state": [
+                        "all",
+                        "active"
+                    ],
+                   "sourceSite":"IMLEUSGA100", 
+					"destinationSite":"IMLEUSGA005",
+					"circuitSize":"STS-24C", 
+					"circuitType":"OCHCC",
+					"circuitStatus":"active", 
+					"sourceAddress":"IM, 1001 Windward Parkway, Alpharetta, GA 30004",
+					"destinationAddress":"AT&T POP, 51 Peachtree Center, Atlanta, GA 30309",
+					"biDirectional":"Yes",
+					"ituWavelength":"ITU 23 (&lambda;1558.98)",
+					"protection":"Y-Cable",
+					"ring":"ringA",
+					"SubNodes": []
+                },
+                {
+                    "Name": "IMLEUSGA100-IMLEUSGA005",
+                    "state": [
+                        "all",
+                        "active"
+                    ],
+                    "sourceSite":"IMLEUSGA100", 
+					"destinationSite":"IMLEUSGA005",
+					"circuitSize":"STS1-3v (150M)", 
+					"circuitType":"GE",
+					"circuitStatus":"active", 
+					"sourceAddress":"IM, 1001 Windward Parkway, Alpharetta, GA 30004",
+					"destinationAddress":"AT&T POP, 51 Peachtree Center, Atlanta, GA 30309",
+					"biDirectional":"Yes",
+					"ituWavelength":"21 (&lambda;1560.61)",
+					"protection":"UPSR",
+					"ring":"ringA",
+					"SubNodes": []
+                },
+                {
+                    "Name": "IMLEUSGA100-IMLEUSGA005",
+                    "state": [
+                        "all",
+                        "active"
+                    ],
+                   "sourceSite":"IMLEUSGA100", 
+					"destinationSite":"IMLEUSGA005",
+					"circuitSize":"STS-1", 
+					"circuitType":"FE",
+					"circuitStatus":"active", 
+					"sourceAddress":"IM, 1001 Windward Parkway, Alpharetta, GA 30004",
+					"destinationAddress":"AT&T POP, 51 Peachtree Center, Atlanta, GA 30309",
+					"biDirectional":"Yes",
+					"ituWavelength":"21(&lambda;1560.61)",
+					"protection":"UPSR",
+					"ring":"ringA",
+					"SubNodes": []
+                },
+                {
+                    "Name": "IMLEUSGA100-IMLEUSGA008",
+                    "state": [
+                        "all",
+                        "active"
+                    ],
+                    "sourceSite":"IMLEUSGA100", 
+					"destinationSite":"IMLEUSGA008",
+					"circuitSize":"STS-12", 
+					"circuitType":"STS",
+					"circuitStatus":"active", 
+					"sourceAddress":"IM,1001 Windward Parkway, Alpharetta, GA 30004",
+					"destinationAddress":"AT&T POP, 3001 Cobb Parkway, Atlanta, GA 30339",
+					"biDirectional":"Yes",
+					"ituWavelength":"21(&lambda;1560.61)",
+					"protection":"UPSR",
+					"ring":"ringA",
+					"SubNodes": []
+                },
+                {
+                    "Name": "IMLEUSGA100-IMLEUSGA005",
+                    "state": [
+                        "all",
+                        "active"
+                    ],
+                   "sourceSite":"IMLEUSGA100", 
+					"destinationSite":"IMLEUSGA005",
+					"circuitSize":"STS-3", 
+					"circuitType":"STS",
+					"circuitStatus":"active", 
+					"sourceAddress":"IM, 1001 Windward Parkway, Alpharetta, GA 30004",
+					"destinationAddress":"AT&T POP, 51 Peachtree Center, Atlanta, GA 30309",
+					"biDirectional":"Yes",
+					"ituWavelength":"21(&lambda;1560.61)",
+					"protection":"UPSR",
+					"ring":"ringA",
+					"SubNodes": []
+                },
+                {
+                    "Name": "IMLEUSGA100-IMLEUSGA200",
+                    "state": [
+                        "all",
+                        "active"
+                    ],
+                    "sourceSite":"IMLEUSGA100", 
+					"destinationSite":"IMLEUSGA200",
+					"circuitSize":"STS-1", 
+					"circuitType":"STS",
+					"circuitStatus":"active", 
+					"sourceAddress":"IM, 1001 Windward Parkway, Alpharetta, GA 30004",
+					"destinationAddress":"AT&T SE, 70 Courtland Street, Atlanta, GA 30303",
+					"biDirectional":"Yes",
+					"ituWavelength":"21(&lambda;1560.61)",
+					"protection":"UPSR",
+					"ring":"ringA",
+					"SubNodes": []
+                },
+                {
+                    "Name": "IMLEUSGA100-IMLEUSGA008",
+                    "state": [
+                        "all",
+                        "active"
+                    ],
+                   "sourceSite":"IMLEUSGA100", 
+					"destinationSite":"IMLEUSGA008",
+					"circuitSize":"VT1.5", 
+					"circuitType":"VT",
+					"circuitStatus":"active", 
+					"sourceAddress":"GE, 1001 Windward Parkway, Alpharetta, GA 30004",
+					"destinationAddress":"AT&T POP, 3001 Cobb Parkway, Atlanta, GA 30339",
+					"biDirectional":"Yes",
+					"ituWavelength":"21(&lambda;1560.61)",
+					"protection":"UPSR",
+					"ring":"ringA",
+					"SubNodes": []
+                }
+            ]
+        },
+        {
+            "Name": "IM Ring B",
+            "state": [
+                "all",
+                "active"
+            ],
+			"ring":"ringBNode",
+            "SubNodes": [
+                {
+                    "Name": "IMLEUSOH101-IMLEUSOH007",
+                    "state": [
+                        "all",
+                        "active"
+                    ],
+                    "sourceSite":"IMLEUSOH101", 
+					"destinationSite":"IMLEUSOH007",
+					"circuitSize":"10G WANPHY", 
+					"circuitType":"Wave",
+					"circuitStatus":"active", 
+					"sourceAddress":"GIS 2nd floor, 8700 Governors Hill, Cincinnati, OH 45249",
+					"destinationAddress":"AT&T POP - Cincinnati, 358 Gest St, 2nd Floor, Cincinnati, OH 45249",
+					"biDirectional":"Yes",
+					"ituWavelength":"ITU 22 (&lambda;1559.79)",
+					"protection":"Unprotected(CCW)",
+					"ring":"ringB",
+					"SubNodes": []
+                },
+                {
+                    "Name": "IMLEUSGA100-IMLEUSGA008",
+                    "state": [
+                        "all",
+                        "active"
+                    ],
+                   "sourceSite":"IMLEUSGA100", 
+					"destinationSite":"IMLEUSGA008",
+					"circuitSize":"10G WANPHY", 
+					"circuitType":"Wave",
+					"circuitStatus":"active", 
+					"sourceAddress":"IM, 1001 Windward Parkway,Alpharetta, GA 30004",
+					"destinationAddress":"AT&T POP, 3001 Cobb Parkway, Atlanta, GA 30339",
+					"biDirectional":"Yes",
+					"ituWavelength":"ITU 22 (&lambda;1559.79)",
+					"protection":"Unprotected",
+					"ring":"ringB",
+					"SubNodes": []
+                },
+                {
+                    "Name": "IMLEUSOH101-IMLEUSOH007",
+                    "state": [
+                        "all",
+                        "active"
+                    ],
+                    "sourceSite":"IMLEUSOH101", 
+					"destinationSite":"IMLEUSOH007",
+					"circuitSize":"GigE", 
+					"circuitType":"STS-1-12v",
+					"circuitStatus":"active", 
+					"sourceAddress":"GIS 2nd floor,8700 Governors Hill, Cincinnati, OH 45249",
+					"destinationAddress":"AT&T POP - Cincinnati, 358 Gest St, 2nd Floor, Cincinnati, OH 45249",
+					"biDirectional":"Yes",
+					"ituWavelength":"ITU 21(&lambda;1560.61)",
+					"protection":"UPSR",
+					"ring":"ringB",
+					"SubNodes": []
+                },
+                {
+                    "Name": "IMLEUSOH101-IMLEUSOH007",
+                    "state": [
+                        "all",
+                        "active"
+                    ],
+                    "sourceSite":"IMLEUSOH101", 
+					"destinationSite":"IMLEUSOH007",
+					"circuitSize":"ENET 100", 
+					"circuitType":"STS-1",
+					"circuitStatus":"active", 
+					"sourceAddress":"GIS 2nd floor,8700 Governors Hill, Cincinnati, OH 45249",
+					"destinationAddress":"AT&T POP - Cincinnati, 358 Gest St, 2nd Floor, Cincinnati, OH 45249",
+					"biDirectional":"Yes",
+					"ituWavelength":"ITU 21(&lambda;1560.61)",
+					"protection":"UPSR",
+					"ring":"ringB",
+					"SubNodes": []
+                },
+                {
+                    "Name": "IMLEUSOH101-IMLEUSOH007",
+                    "state": [
+                        "all",
+                        "active"
+                    ],
+                   "circuitName":"IMBCIN1SS01-04010401",
+		"sourceSite":"IMLEUSOH101", 
+					"destinationSite":"IMLEUSOH007",
+					"circuitSize":"OC-3", 
+					"circuitType":"STS-3c",
+					"circuitStatus":"active", 
+					"sourceAddress":"GIS 2nd floor,8700 Governors Hill, Cincinnati, OH 45249",
+					"destinationAddress":"AT&T POP - Cincinnati, 358 Gest St, 2nd Floor, Cincinnati, OH 45249",
+					"biDirectional":"Yes",
+					"ituWavelength":"ITU 21 (&lambda;1560.61)",
+					"protection":"UPSR",
+					"ring":"ringB",
+					"SubNodes": []
+                }
+            ]
+        }
+    ]
+}
+]

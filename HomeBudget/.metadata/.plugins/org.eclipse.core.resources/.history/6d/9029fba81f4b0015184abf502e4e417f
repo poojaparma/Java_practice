@@ -1,0 +1,20 @@
+package com.java.aop;
+
+public class BankAccountDAO {
+//	n AOP, a feature like metrics is called a crosscutting concern, 
+	//as it's a behavior that "cuts" across multiple points in your object models, yet is distinctly different. 
+	//As a development methodology, AOP recommends that you abstract and encapsulate crosscutting concerns.
+	  public void withdraw(double amount)
+	  {
+	    long startTime = System.currentTimeMillis();
+	    try
+	    {
+	      // Actual method body...
+	    }
+	    finally
+	    {
+	      long endTime = System.currentTimeMillis() - startTime;
+	      System.out.println("withdraw took: " + endTime);
+	    }
+	  }
+}

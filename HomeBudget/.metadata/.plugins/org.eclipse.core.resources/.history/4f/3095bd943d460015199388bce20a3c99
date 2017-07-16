@@ -1,0 +1,12 @@
+package com.java.collection.problems;
+
+public class test {
+//why encapsulation relatime and abstraction 
+	
+	public static void main(String[] args) {
+	
+}
+void hello(final String... args){
+	agrs="";
+}
+}

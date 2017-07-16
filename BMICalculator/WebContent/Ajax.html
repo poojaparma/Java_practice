@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>CTC ALARM</title>
+  <!--  <script type="text/javascript" 
+   src="../jquery/jquery-1.11.1.js"></script> -->
+   <script type="text/javascript"
+   src="../jquery/jquery-2.1.1.min.js"></script>
+   
+   <script type="text/javascript" language="javascript">
+   // <![CDATA[
+   
+ function callme(){  
+    var weight = $("#txt_name").val()
+   var height =$("#weight_name").val();
+    console.log($("#txt_name").val());
+  var formURL = $('#ctc').attr("action");
+    console.log(formURL);
+	  $.ajax({
+             type: 'POST', //GET or POST or PUT or DELETE verb
+             url:  formURL,//'http://localhost:8080/RestClient/rest/ctc' , 
+             data:  {weight:weight,height
+            	 :height}, // the $ sign in the parameter name seems unusual, I would avoid it
+              //Data sent to server
+             Accept : "application/json",
+             contentType: 'application/json; charset=utf-8', // content type sent to server
+             dataType: "json", //Expected data format from server
+             processdata: true, //True or False
+             crossDomain: true,
+             success: function (json_obj) {//On Successfull service call
+            	 $.each(json_obj, function(i, item) {
+            		 $('<tr>').html("<td>" + item.node + 
+            				 "</td><td>" + item.new +
+            				 "</td><td>" + item.date + 
+            				 "</td><td>" + item.object + 
+            				 "</td><td>" + item.shelf + 
+            				 "</td><td>" + item.eqType + 
+            				 "</td><td>" + item.port + 
+            				 "</td><td>" + item.wavelength + 
+            				 "</td><td>" + item.pathWidth + 
+            				 "</td><td>" + item.severity + 
+            				 "</td><td>" + item.st + 
+            				 "</td><td>" + item.sa + 
+            				 "</td><td>" + item.condition + 
+            				 "</td><td>" + item.description + 
+            				 "</td><td>" + item.direction + 
+            				 "</td><td>" + item.location + 
+            				 "</td><td>" + item.slot +"</td>" ).appendTo('#display');
+            		
+            	 });
+            	 }, 
+             error: function (response) {// When Service call fails
+                 alert('error: '  + response.response +"Response staus: " + response.status  + 'resposne data: ' + response.data  );
+             },
+            	 
+         });
+  }//CALL ME ENDS HERE
+/* function poll(){  
+    var postData = $("#txt_name").val();
+    $("#SUBMIT").attr("disabled", true);
+    
+  //  console.log($("#txt_name").val());
+  //  console.log(postData);
+  var ipList = $("#Other_ip").val();
+  var formURL = $('#ctc').attr("action");
+  //  console.log(formURL);
+ //  setTimeout(function () {
+	  $.ajax({
+             type: 'POST', //GET or POST or PUT or DELETE verb
+             url:  formURL,//'http://localhost:8080/RestClient/rest/ctc' , 
+             data:  {weight:weight,height
+            	 :height}, // the $ sign in the parameter name seems unusual, I would avoid it
+              //Data sent to server
+             Accept : "application/json",
+             contentType: 'application/json; charset=utf-8', // content type sent to server
+             dataType: "json", //Expected data format from server
+             processdata: true, //True or False
+             crossDomain: true,
+             success: function (json_obj) {//On Successfull service call
+            	// $('#display').empty();
+            	 $("#display").find("tr:gt(0)").remove();
+            	 $.each(json_obj, function(i, item) {
+            		// $.each(item, function(k, v) {
+			// });
+            		 $('<tr>').html("<td>" + item.node + 
+            				 "</td><td>" + item.new +
+            				 "</td><td>" + item.date + 
+            				 "</td><td>" + item.object + 
+            				 "</td><td>" + item.shelf + 
+            				 "</td><td>" + item.eqType + 
+            				 "</td><td>" + item.port + 
+            				 "</td><td>" + item.wavelength + 
+            				 "</td><td>" + item.pathWidth + 
+            				 "</td><td>" + item.severity + 
+            				 "</td><td>" + item.st + 
+            				 "</td><td>" + item.sa + 
+            				 "</td><td>" + item.condition + 
+            				 "</td><td>" + item.description + 
+            				 "</td><td>" + item.direction + 
+            				 "</td><td>" + item.location + 
+            				 "</td><td>" + item.slot +"</td>" ).appendTo('#display');
+            		 
+            		
+            	 });
+            	 setTimeout(poll, 3000);
+            	 }, 
+             error: function (response, exception) {// When Service call fails
+            	 if (response.status === 0) {
+                     alert('Not connect.n Verify Network.');
+                 } else if (response.status == 404) {
+                     alert('Requested page not found. [404]');
+                 } else if (response.status == 500) {
+                     alert('Internal Server Error [500].');
+                 } else if (response === 'parsererror') {
+                     alert('Requested JSON parse failed.');
+                 } else if (exception === 'timeout') {
+                     alert('Time out error.');
+                 } else if (exception === 'abort') {
+                     alert('Ajax request aborted.');
+                 } else {
+                     alert('Uncaught Error.n' + response.responseText);
+                 }
+             },
+            	
+         });
+ //}, 5000);  
+  }*/
+ 
+   </script>
+
+</head>
+<body>
+<form name="ajaxform" id="ctc" action=http://192.168.1.10:8080/BMICalculator/rest/bmi method="POST" >
+  
+   HostIP  : <input type="text" id="txt_name" name="ip" value=""/> <br/>
+   IpList : <input type="text" id="weight_name" name="ip" value=""/> <br/>
+   <input type="button" id="SUBMIT" Value="SUBMIT" onclick="callme();">
+ 
+</form>
+ 
+<TABLE id="display" BORDER="1" CELLPADDING="3" CELLSPACING="1">
+    <TR>
+   	 	<TH>Node</TH>
+        <TH>New</TH>
+        <TH>Date</TH>
+        <TH>Object</TH>
+         <TH>Shelf</TH>
+        <TH>EqType</TH>
+        <TH>Port</TH>
+        <TH>Wavelength</TH>
+         <TH>PathWidth</TH>
+        <TH>Severity</TH>
+         <TH>ST</TH>
+        <TH>SA</TH>
+         <TH>Condition</TH>
+        <TH>Description</TH>
+        <TH>Direction</TH>
+        <TH>Location</TH>
+        <TH>Slot</TH>
+        
+    </TR>
+</body>
+</html>

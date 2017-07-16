@@ -1,0 +1,83 @@
+package com.aspect.jointpoint.advice;
+
+import java.util.Arrays;
+
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.aspectj.lang.annotation.Pointcut;
+
+@Aspect
+public class EmployeeAspect {
+	/*
+	 * The string parameter passed in the @Before annotation is the Pointcut
+	 * expression
+	 */
+	@Before("execution(public String getName())")
+	/*
+	 * getNameAdvice() advice will execute for any Spring Bean method with
+	 * signature public String getName(). This is a very important point to
+	 * remember, if we will create Employee bean using new operator the advices
+	 * will not be applied. Only when we will use ApplicationContext to get the
+	 * bean, advices will be applied.
+	 */
+	public void getNameAdvice() {
+		System.out.println("Executing Advice on getName()");
+	}
+	/*We can use asterisk (*) as wild card in Pointcut expressions,
+	getAllAdvice() will be applied for all the classes in 
+	com.journaldev.spring.service package whose name starts with get and 
+	doesn’t take any arguments.*/
+	@Before("execution(* com.journaldev.spring.service.*.get*())")
+	public void getAllAdvice() {
+		System.out.println("Service method getter called");
+	}
+	/*Sometimes we have to use same Pointcut expression at multiple places, we can create an empty
+	method with @Pointcut annotation and then use it as expression in advices.*/
+		 @Before("getNamePointcut()")
+		    public void loggingAdvice(){
+		        System.out.println("Executing loggingAdvice on getName()");
+		    }
+		     
+		    @Before("getNamePointcut()")
+		    public void secondAdvice(){
+		        System.out.println("Executing secondAdvice on getName()");
+		    }
+		     
+		    @Pointcut("execution(public String getName())")
+		    public void getNamePointcut(){
+		    	
+		    }
+		    /*We can use JoinPoint as parameter in the 
+		    advice methods and using it get the method signature or the target object.*/
+
+		    @Before("execution(public void com.journaldev.spring.model..set*(*))")
+		    public void loggingAdvice(JoinPoint joinPoint){
+		        System.out.println("Before running loggingAdvice on method="+joinPoint.toString());
+		         
+		        System.out.println("Agruments Passed=" + Arrays.toString(joinPoint.getArgs()));
+		 
+		    }
+		     
+		    //Advice arguments, will be applied to bean methods with single String argument
+		    @Before("args(name)")
+		    public void logStringArguments(String name){
+		        System.out.println("String argument passed="+name);
+		    }
+		    
+		    @After("args(name)")
+		    public void logStringArguments(String name){
+		        System.out.println("Running After Advice. String argument passed="+name);
+		    }
+		     
+		    @AfterThrowing("within(com.journaldev.spring.model.Employee)")
+		    public void logExceptions(JoinPoint joinPoint){
+		        System.out.println("Exception thrown in Employee Method="+joinPoint.toString());
+		    }
+		     
+		    @AfterReturning(pointcut="execution(* getName())", returning="returnString")
+		    public void getNameReturningAdvice(String returnString){
+		        System.out.println("getNameReturningAdvice executed. Returned String="+returnString);
+		    }
+		     
+}
